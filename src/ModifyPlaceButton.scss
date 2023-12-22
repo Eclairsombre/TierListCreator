@@ -1,0 +1,50 @@
+.Up{
+    background-color: #00ff00;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    position: absolute;
+    left: -50px; // Adjust this value as needed
+    font-size: 16px;
+    margin: 40px 0 0 0; // Adjust this value as needed
+    cursor: pointer;
+    &:hover{
+        background-color: #00cc00;
+    }
+    &:active{
+        background-color: #009900;
+    }
+    &:focus{
+        outline: none;
+    }
+}
+.Down {
+    background-color: #ff0000;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    position: absolute;
+    left: -50px; // Adjust this value as needed
+    font-size: 16px;
+    margin: 75px 0 0 0; // Adjust this value as needed
+    cursor: pointer;
+
+    &:hover {
+        background-color: #cc0000;
+    }
+    &:active {
+        background-color: #990000;
+    }
+    &:focus {
+        outline: none;
+    }
+}
+

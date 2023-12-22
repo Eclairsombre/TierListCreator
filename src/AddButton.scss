@@ -1,0 +1,47 @@
+.Add{
+    font-size: 50px;
+    width:120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border:none;
+    cursor: pointer;
+    color: white;
+    
+}
+
+
+.Tier{
+    border: 1px solid white;
+    
+    height: 120px;
+    width: 120px;
+    
+}
+
+
+.AddButtonRow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: #fff 2px solid;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.AddRow{
+    font-size: 50px;
+    width:100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+}

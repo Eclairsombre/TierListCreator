@@ -1,0 +1,161 @@
+body{
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: white;
+}
+
+
+
+.Stockage{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; 
+    border: 1px solid white;
+    min-height: 120px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.TierAction{
+    border: 1px solid black;
+    height: 120px;
+    width: 77.68vw;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    z-index: 1;
+    position: relative;
+    background-color: grey;
+    padding: 1rem;
+}
+
+
+   
+.Card{
+    margin-right: 3px;
+    z-index: 1;
+    color: black;
+
+}
+
+.Card :hover{
+    transform: scale(1.1);
+}
+
+
+.Card img{
+    height: 120px;
+    width: 120px;
+    
+}
+
+
+.Tier {
+    border: 1px solid black;
+    height: 120px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+}
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 120px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    color: black;
+}
+
+.modify {
+    height: 30px;
+    width: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute; /* Change this line */
+    bottom: 0;
+    left: 0;
+    transform: translate(0, -30%);
+}
+
+
+
+.modify svg {
+    height: 40px;
+    width: 40px;
+}
+
+
+
+
+h1{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+
+
+
+.Ligne{
+    border: #fff 1px solid;
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.LigneCard{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+
+    border: #fff 1px solid;
+
+
+}
+
+.ButtonCreate button{
+    font-size: 50px;
+    width:120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border:none;
+    cursor: pointer;
+
+}
+
+.NameTierlist{
+    text-decoration: underline 2px white;
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+.ModTitle{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.modifyTitle{
+    height: 30px;
+    width: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute; 
+    top: 9%;
+    right: 100px; 
+}
+
+.modifyTitle svg{
+    height: 30px;
+    width: 30px;
+}
